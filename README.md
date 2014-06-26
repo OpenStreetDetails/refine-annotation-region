@@ -5,7 +5,8 @@
 
 ## Building
 
-    brew install opencv     # or equivalent
+    brew tap homebrew/science
+    brew install opencv
     make
 
 

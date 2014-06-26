@@ -9,6 +9,7 @@
 language: objective-c
 before_install:
   - brew update
+  - brew tap homebrew/science
   - brew install opencv
 
 script: "make"
