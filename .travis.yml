@@ -1,11 +1,17 @@
-language: cpp
-script: "make"
+# language: cpp
+# before_install:
+#   - sudo apt-get update -qq
+#   - sudo apt-get install -y libopencv-dev
+# compiler:
+#   - clang
+#   - gcc
+
+language: objective-c
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y libopencv-dev
-compiler:
-  - clang
-  - gcc
+  - brew update
+  - brew install opencv
+
+script: "make"
 branches:
   only:
     - master
