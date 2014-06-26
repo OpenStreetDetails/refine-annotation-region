@@ -1,5 +1,7 @@
 **Refine (image, object type, interior point) to a bitmask of the object**
 
+[![Build Status](https://secure.travis-ci.org/OpenStreetDetails/refine-annotation-region.png)](http://travis-ci.org/OpenStreetDetails/refine-annotation-region)
+
     cat image | refine-annotation-region $OBJECT_TYPE $X $Y > mask.png
 
 
