@@ -1,6 +1,7 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "util.h"
+#include <stdio.h>
 
 using namespace cv;
 using namespace std;
